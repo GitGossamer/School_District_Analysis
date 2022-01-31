@@ -1,0 +1,30 @@
+# Overview of the school district analysis: Explain the purpose of this analysis.
+Due to suspicion of academic dishonesty, I was tasked with replacing the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. This analysis report describes how these changes affected the overall analysis.
+## Results: Using bulleted lists and images of DataFrames as support, address the following questions.
+•	How is the district summary affected?
+o	There doesn’t seem to be a significant change in overall scores between the before (with 9th graders) and after (without 9th graders) scores.
+o	Of note: “new_overall_passing_math_reading_percentage” (Step 4) of 64.9% shouldn’t be lower than the average of those that passed both Math and Reading. This would be something to monitor (see image below).
+ 
+•	How is the school summary affected?
+o	The impact on the school summary seems noticeably favorable:
+	Passing math scores improved by 18.4%, moving from 74.8% up to 
+	Passing reading scores improved by 11.3%
+	Overall passing % improved by 25.7%
+
+ 
+
+•	How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+o	Replacing the scores doesn’t seem to offer a significant change to the school data, seeing a positive 6.8% change in reading scores, but a negative (and equal) 6.8% change in math scores.
+o	Before: Avg. reading (81.6%) & math score (78.9%)
+ 
+o	After: Avg. reading (74.8%) & math score (85.7%).	
+              
+
+•	How does replacing the ninth-grade scores affect the following:
+o	Math and reading scores by grade: 
+o	Scores by school spending:
+o	Scores by school size:
+o	Scores by school type:
+   
+### Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+
